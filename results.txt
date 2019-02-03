@@ -1,0 +1,119 @@
+#####################################################
+Grid size: 10
+#####################################################
+
+
+mpiexec -np 1 python solver.py 10
+Took:  0.017758655548095702
+
+mpiexec -np 2 python solver.py 10
+Took:  0.013319659233093261
+
+mpiexec -np 3 python solver.py 10
+Took:  0.01047220230102539
+
+mpiexec -np 4 python solver.py 10
+Took:  0.00823526382446289
+
+#####################################################
+Grid size: 20
+#####################################################
+
+
+mpiexec -np 1 python solver.py 20
+Took:  0.06973681449890137
+
+mpiexec -np 2 python solver.py 20
+Took:  0.051092123985290526
+
+mpiexec -np 3 python solver.py 20
+Took:  0.038182616233825684
+
+mpiexec -np 4 python solver.py 20
+Took:  0.027081823348999022
+
+#####################################################
+Grid size: 30
+#####################################################
+
+
+mpiexec -np 1 python solver.py 30
+Took:  0.1685579776763916
+
+mpiexec -np 2 python solver.py 30
+Took:  0.11174359321594238
+
+mpiexec -np 3 python solver.py 30
+Took:  0.07627882957458496
+
+mpiexec -np 4 python solver.py 30
+Took:  0.060778236389160155
+
+#####################################################
+Grid size: 40
+#####################################################
+
+
+mpiexec -np 1 python solver.py 40
+Took:  0.27733564376831055
+
+mpiexec -np 2 python solver.py 40
+Took:  0.19102284908294678
+
+mpiexec -np 3 python solver.py 40
+Took:  0.13515992164611818
+
+mpiexec -np 4 python solver.py 40
+Took:  0.11366252899169922
+
+#####################################################
+Grid size: 50
+#####################################################
+
+
+mpiexec -np 1 python solver.py 50
+Took:  0.4575178861618042
+
+mpiexec -np 2 python solver.py 50
+Took:  0.29525136947631836
+
+mpiexec -np 3 python solver.py 50
+Took:  0.20236213207244874
+
+mpiexec -np 4 python solver.py 50
+Took:  0.1714775800704956
+
+#####################################################
+Grid size: 80
+#####################################################
+
+
+mpiexec -np 1 python solver.py 80
+Took:  1.121647310256958
+
+mpiexec -np 2 python solver.py 80
+Took:  0.7924840450286865
+
+mpiexec -np 3 python solver.py 80
+Took:  0.5212767601013184
+
+mpiexec -np 4 python solver.py 80
+Took:  0.41899073123931885
+
+#####################################################
+Grid size: 100
+#####################################################
+
+
+mpiexec -np 1 python solver.py 100
+Took:  1.751461672782898
+
+mpiexec -np 2 python solver.py 100
+Took:  1.2544536113739013
+
+mpiexec -np 3 python solver.py 100
+Took:  0.8767293930053711
+
+mpiexec -np 4 python solver.py 100
+Took:  0.6442008018493652
+
